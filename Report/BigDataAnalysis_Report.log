@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.9)  9 JUN 2022 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.9)  10 JUN 2022 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1201,11 +1201,11 @@ File: SydneyLocational.png Graphic file (type png)
 <use SydneyLocational.png>
 Package pdftex.def Info: SydneyLocational.png  used on input line 231.
 (pdftex.def)             Requested size: 441.29832pt x 294.89479pt.
-<MelbourneLocational.png, id=155, 1523.6925pt x 1122.1925pt>
+<MelbourneLocational.png, id=155, 1597.97pt x 1134.2375pt>
 File: MelbourneLocational.png Graphic file (type png)
 <use MelbourneLocational.png>
 Package pdftex.def Info: MelbourneLocational.png  used on input line 238.
-(pdftex.def)             Requested size: 396.15071pt x 291.76317pt.
+(pdftex.def)             Requested size: 415.4624pt x 294.89479pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1216,11 +1216,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./SydneyLocational.png> <./MelbourneLocational.png>]
-<BrisbaneLocational.png, id=164, 1535.7375pt x 1086.0575pt>
+<BrisbaneLocational.png, id=164, 1640.1275pt x 1131.22626pt>
 File: BrisbaneLocational.png Graphic file (type png)
 <use BrisbaneLocational.png>
 Package pdftex.def Info: BrisbaneLocational.png  used on input line 246.
-(pdftex.def)             Requested size: 399.28233pt x 282.36829pt.
+(pdftex.def)             Requested size: 426.4231pt x 294.1119pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1267,9 +1267,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11] (BigDataAnalysis_Report.aux)
-Package rerunfilecheck Info: File `BigDataAnalysis_Report.out' has not changed.
 
-(rerunfilecheck)             Checksum: 98DE671F756C004F3030CBD6F2FEB56A;3511.
+Package rerunfilecheck Warning: File `BigDataAnalysis_Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `BigDataAnalysis_Report.out':
+(rerunfilecheck)             Before: 608DF163CEDE2ECCC8B1D53045066660;3528
+(rerunfilecheck)             After:  98DE671F756C004F3030CBD6F2FEB56A;3511.
  ) 
 Here is how much of TeX's memory you used:
  18394 strings out of 478614
@@ -1285,7 +1290,7 @@ ts/cm/cmbx12.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BigDataAnalysis_Report.pdf (13 pages, 854240 bytes).
+Output written on BigDataAnalysis_Report.pdf (13 pages, 870398 bytes).
 PDF statistics:
  222 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
