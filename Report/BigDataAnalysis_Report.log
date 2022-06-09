@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.9)  10 JUN 2022 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.9)  10 JUN 2022 01:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1267,19 +1267,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11] (BigDataAnalysis_Report.aux)
+Package rerunfilecheck Info: File `BigDataAnalysis_Report.out' has not changed.
 
-Package rerunfilecheck Warning: File `BigDataAnalysis_Report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `BigDataAnalysis_Report.out':
-(rerunfilecheck)             Before: 608DF163CEDE2ECCC8B1D53045066660;3528
-(rerunfilecheck)             After:  98DE671F756C004F3030CBD6F2FEB56A;3511.
+(rerunfilecheck)             Checksum: 98DE671F756C004F3030CBD6F2FEB56A;3511.
  ) 
 Here is how much of TeX's memory you used:
  18394 strings out of 478614
  358413 string characters out of 2843123
- 602190 words of memory out of 3000000
+ 601190 words of memory out of 3000000
  36246 multiletter control sequences out of 15000+600000
  475477 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1290,9 +1285,9 @@ ts/cm/cmbx12.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BigDataAnalysis_Report.pdf (13 pages, 870398 bytes).
+Output written on BigDataAnalysis_Report.pdf (13 pages, 872474 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
+ 224 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
  192 words of extra memory for PDF output out of 10000 (max. 10000000)
 
