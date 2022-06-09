@@ -4,3 +4,14 @@
 \contentsline {subsection}{\numberline {1.3}Hypothesis About the Analysis Outcome}{2}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Data Analysis and Interpretation}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Studying the Job Meta Data / Attributes}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Studying the Market by Locations}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Studying the Market by Sectors}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Interactive Visualisation of Results}{9}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Evaluation}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Findings of Data Analytics}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Balancing the Market}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Refining the Data Analytics}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Implications for Employers and Employees}{10}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Case Studies}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Case Study 1}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Case Study 2}{11}{subsection.4.2}%

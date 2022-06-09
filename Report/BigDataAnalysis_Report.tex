@@ -19,6 +19,8 @@
 \usepackage{booktabs}
 \usepackage{multicol}
 \usepackage{textgreek}
+\usepackage[export]{adjustbox}
+
 
 %\graphicspath{ {./Lab2_Images_Reformatted/} }
 %\usepackage{natbib}
@@ -81,12 +83,14 @@
 
 \vspace*{8mm}
 
-\textbf{Jessy Barber, yabadabadoo, s5138877}\\
+\textbf{Jessy Barber, s5138877}\\
+\hspace*{4.5mm}
+\textbf{Zac Jensen, s5153515}\\
 \newline
 
 \vspace*{8mm}
 \begin{myindentpar}{2cm}
-\emph{A report submitted in partial fulfilment of the degree of Bachelor of Electrical Engineering (Honours) / Bachelor of Computer Science}
+\emph{A report submitted in partial fulfilment of the degree Bachelor of Computer Science}
 \end{myindentpar}
 
 
@@ -152,21 +156,21 @@ This report will conduct multiple vectors of analysis on this job data including
 \newpage
 \subsection{Describe the Steps You Used for Data Preparation and Preprocessing}
 
-The data is loaded using pandas as per the following code:
-
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale = 0.60]{LoadingDataCode.png}
+	\includegraphics[scale = 0.56]{LoadingDataCode.png}
 	\caption{Loading the Data with Pandas}
 	\label{fig:LoadingData}
 \end{figure}
 
-As seen in figure \ref{fig:LoadingData}, the .csv file is read in and stored as a DataFrame type in the variable df. The head of the dataframe is then printed for visualisation purposes. 
+As seen in figure \ref{fig:LoadingData}, the .csv file is read in and stored as a DataFrame type in the variable df. The head of the dataframe is then printed for visualisation purposes.\\
+The first step to begin working with the data is to load it into a DataFrame using Pandas. Pandas is a flexible and powerful open-source data analytics tool, built for use in Python. To load the csv file into a DataFrame, just call read\_csv with the filename. In this assignment, an optional parameter "low\_memory=False" is also provided, to allow Pandas to use enough memory to determine the correct datatype for each column due to the size of the dataset. Without this parameter, Pandas will attempt to guess the datatypes, which may lead to unexpected results. To normalize the data, the average salary is calculated for all job entries, by taking the LowestSalaray and HighestSalary columns, and placed back into the DataFrame as a new column AverageSalary. This number is then multiplied by 1,000 and formatted for easier readabilitiy. This results in an average salary looking like "15,000" instead of "15.0". Normalizing the data this way provides each job entry with a fair visualisation of salary.
 
-HOW DO YOU NORMALISE THE DATA:\\
-HOW DO YOU CLEAN THE DATA:
+The dataset also requires some cleaning for a couple of the columns. The "Id" column is how Seek keeps track of unique job entries and should be an integer number, but occasionally contains some random characters. To clean this up, a regular expression is used to remove any occurence of characters that occur after - and including - an ampersand. The "Date" column also contains extra information that is not necessary for this analysis. This column includes hours, minutes, and seconds, but only the day, month, and year are required. To clean this column, a regular expression is used to remove anything after and including a 'T' character. This results in the "Date" column only containing the necessary information in the format yyyy-mm-dd. After the data cleaning is complete, the correct dtypes are assigned to the "Id" and "Date" columns.
 
 \subsection{Hypothesis About the Analysis Outcome}
+
+One expected outcome of the data analysis is the number of jobs based on location. The expected result is that jobs will be concentrated on the coast, with the highest number seen in the five large cities of Australia. A similar outcome is expected for the salaries of jobs; the further South you go - Melbourne, Sydney, Adelaide - the higher paying jobs you can expect to find. This is due to a large population density and higher cost of living in the Southern cities of Australia.
 
 \newpage 
 \section{Data Analysis and Interpretation}
@@ -201,15 +205,67 @@ Figure \ref{fig:SubClassVsPosts} shows the top 30 sub classifications from the m
 Figure \ref{fig:TopFiveCities} shows the top five cities in Australia in terms of market share from the dataset. It is clear that Sydney holds the highest market share of employment at 30.8\% and Melbourne in second with 23.7\% of the market share. Adelaide presents the lowest market share at 3.4\%. 
 
 \newpage
-\begin{figure}[h!]
+\begin{figure}[h]
 	\centering
-	\includegraphics[scale = 0.55]{SalaryRanges.png}
-	\caption{Salary Ranges of Jobs}
-	\label{fig:SalaryRanges}
+	\includegraphics[scale = 0.55]{AverageRanges.png}
+	\caption{Average Salary Ranges of Jobs}
+	\label{fig:AverageRanges}
 \end{figure}
 
-Figure \ref{fig:SalaryRanges} shows the highest and lowest salary ranges for each job. WHAT DOES 0 REPRESENT -> UNEMPLOYMENT OR NAN. TALK ABOUT TOP LOWEST AND TOP HIGHEST SALARIES. 
+Figure \ref{fig:AverageRanges} shows the average salary range distribution for all of the listed jobs. As seen in this chart, the most common salary is \$15,000 at 19.67\%. Jobs at this salary can expect around \$7.50 per hour working 40 hours a week, 50 weeks a year with 2 weeks of holidays. The highest average salary is around \$599,500 at 3.58\%. Jobs at this salary can expect around \$299.75 per hour working 40 hours a week, 50 weeks a year with 2 weeks of holidays. 
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale = 0.55]{JobType.png}
+	\caption{Distribution of Job Types}
+	\label{fig:JobTypes}
+\end{figure}
+
+Figure \ref{fig:JobTypes} shows the distribution of advertised job types. From this pie chart it is clear that most jobs are under the job type "Full Time" at 66.55\%, whilst the smallest number of jobs fall under the job type "Part Time" at 7.24\%. 
+
+\newpage
+\subsection{Studying the Market by Locations}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale = 0.26]{SydneyLocational.png}
+	\caption{Sydney Locational Analysis}
+	\label{fig:SydneyLoc}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale = 0.26]{MelbourneLocational.png}
+	\caption{Melbourne Locational Analysis}
+	\label{fig:MelbLoc}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale = 0.26]{BrisbaneLocational.png}
+	\caption{Brisbane Locational Analysis}
+	\label{fig:BrisLoc}
+\end{figure}
+
+\newpage
+\subsection{Studying the Market by Sectors}
+
+\newpage
+\subsection{Interactive Visualisation of Results}
+
+
+\newpage
+\section{Evaluation}
+\subsection{Findings of Data Analytics}
+\subsection{Balancing the Market}
+\subsection{Refining the Data Analytics}
+\subsection{Implications for Employers and Employees}
+
+\newpage
+\section{Case Studies}
+\subsection{Case Study 1}
+\subsection{Case Study 2}
 
 
 \end{document}
