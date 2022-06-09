@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.7)  7 JUN 2022 22:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.9)  9 JUN 2022 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,7 +1148,7 @@ Package rerunfilecheck Info: File `BigDataAnalysis_Report.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  17194 strings out of 478614
- 336627 string characters out of 2843123
+ 336501 string characters out of 2843123
  580895 words of memory out of 3000000
  35106 multiletter control sequences out of 15000+600000
  475140 words of font info for 48 fonts, out of 8000000 for 9000
