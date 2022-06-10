@@ -6,12 +6,11 @@
 \contentsline {subsection}{\numberline {2.1}Studying the Job Meta Data / Attributes}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Studying the Market by Locations}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Studying the Market by Sectors}{8}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Interactive Visualisation of Results}{9}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Evaluation}{10}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Findings of Data Analytics}{10}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Balancing the Market}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Refining the Data Analytics}{10}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Implications for Employers and Employees}{10}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Case Studies}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Case Study 1}{11}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Case Study 2}{11}{subsection.4.2}%
+\contentsline {section}{\numberline {3}Evaluation}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Findings of Data Analytics}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Balancing the Market}{12}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Refining the Data Analytics}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Implications for Employers and Employees}{13}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Case Studies}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Case Study 1}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Case Study 2}{14}{subsection.4.2}%
