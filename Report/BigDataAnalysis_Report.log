@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.9)  10 JUN 2022 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.9)  10 JUN 2022 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1158,15 +1158,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3 <./ClassVsPostings.png> <./SubClassVsPostings.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
-
- []
-
-<TopCities.png, id=132, 582.175pt x 581.17125pt>
+<TopCities.png, id=132, 559.08875pt x 581.17125pt>
 File: TopCities.png Graphic file (type png)
 <use TopCities.png>
-Package pdftex.def Info: TopCities.png  used on input line 200.
-(pdftex.def)             Requested size: 337.66174pt x 337.07956pt.
+Package pdftex.def Info: TopCities.png  used on input line 199.
+(pdftex.def)             Requested size: 335.45583pt x 348.70544pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1179,13 +1176,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <AverageRanges.png, id=140, 440.64626pt x 416.55624pt>
 File: AverageRanges.png Graphic file (type png)
 <use AverageRanges.png>
-Package pdftex.def Info: AverageRanges.png  used on input line 210.
+Package pdftex.def Info: AverageRanges.png  used on input line 209.
 (pdftex.def)             Requested size: 242.35619pt x 229.10663pt.
-<JobType.png, id=142, 466.74374pt x 416.55624pt>
+<JobType.png, id=142, 395.4775pt x 416.55624pt>
 File: JobType.png Graphic file (type png)
 <use JobType.png>
-Package pdftex.def Info: JobType.png  used on input line 219.
-(pdftex.def)             Requested size: 256.70984pt x 229.10663pt.
+Package pdftex.def Info: JobType.png  used on input line 218.
+(pdftex.def)             Requested size: 217.51329pt x 229.10663pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1196,16 +1193,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./AverageRanges.png> <./JobType.png>]
-<SydneyLocational.png, id=154, 1662.21pt x 1134.2375pt>
+<SydneyLocational.png, id=154, 1459.4525pt x 1134.2375pt>
 File: SydneyLocational.png Graphic file (type png)
 <use SydneyLocational.png>
-Package pdftex.def Info: SydneyLocational.png  used on input line 231.
-(pdftex.def)             Requested size: 432.16441pt x 294.89479pt.
-<MelbourneLocational.png, id=155, 1597.97pt x 1134.2375pt>
+Package pdftex.def Info: SydneyLocational.png  used on input line 230.
+(pdftex.def)             Requested size: 379.4487pt x 294.89479pt.
+<MelbourneLocational.png, id=155, 1436.36626pt x 1134.2375pt>
 File: MelbourneLocational.png Graphic file (type png)
 <use MelbourneLocational.png>
-Package pdftex.def Info: MelbourneLocational.png  used on input line 238.
-(pdftex.def)             Requested size: 415.4624pt x 294.89479pt.
+Package pdftex.def Info: MelbourneLocational.png  used on input line 237.
+(pdftex.def)             Requested size: 373.44643pt x 294.89479pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1216,11 +1213,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./SydneyLocational.png> <./MelbourneLocational.png>]
-<BrisbaneLocational.png, id=164, 1640.1275pt x 1131.22626pt>
+<BrisbaneLocational.png, id=164, 1470.49374pt x 1131.22626pt>
 File: BrisbaneLocational.png Graphic file (type png)
 <use BrisbaneLocational.png>
-Package pdftex.def Info: BrisbaneLocational.png  used on input line 246.
-(pdftex.def)             Requested size: 426.4231pt x 294.1119pt.
+Package pdftex.def Info: BrisbaneLocational.png  used on input line 245.
+(pdftex.def)             Requested size: 382.31937pt x 294.1119pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1231,6 +1228,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./BrisbaneLocational.png>]
+<JobClassHighSal.png, id=174, 2433.09pt x 1572.87625pt>
+File: JobClassHighSal.png Graphic file (type png)
+<use JobClassHighSal.png>
+Package pdftex.def Info: JobClassHighSal.png  used on input line 259.
+(pdftex.def)             Requested size: 437.9373pt x 283.10551pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1239,7 +1242,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]
+[8 <./JobClassHighSal.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1272,10 +1275,10 @@ Package rerunfilecheck Info: File `BigDataAnalysis_Report.out' has not changed.
 (rerunfilecheck)             Checksum: 98DE671F756C004F3030CBD6F2FEB56A;3511.
  ) 
 Here is how much of TeX's memory you used:
- 18394 strings out of 478614
- 358413 string characters out of 2843123
- 601190 words of memory out of 3000000
- 36246 multiletter control sequences out of 15000+600000
+ 18403 strings out of 478614
+ 358615 string characters out of 2843123
+ 601259 words of memory out of 3000000
+ 36253 multiletter control sequences out of 15000+600000
  475477 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,11n,79p,1058b,798s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -1285,9 +1288,9 @@ ts/cm/cmbx12.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jessy/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on BigDataAnalysis_Report.pdf (13 pages, 927111 bytes).
+Output written on BigDataAnalysis_Report.pdf (13 pages, 1060799 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
